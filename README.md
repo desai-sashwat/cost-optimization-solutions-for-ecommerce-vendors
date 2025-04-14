@@ -84,6 +84,7 @@ The implementation follows a standard DE workflow:
   - `placeholder.md` - Placeholder file
 - **LICENSE** - MIT License
 - **README.md** - Project documentation
+- **requirements.txt** - Project dependencies
 
 ## Data Description
 The model utilizes real-world data including:
