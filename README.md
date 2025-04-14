@@ -29,18 +29,18 @@ In today's competitive e-commerce landscape, smaller vendors struggle to compete
 The project employs a comprehensive cost optimization model with multiple components:
 
 - **Material Cost (MC)**: Cost of raw materials from vendors to facilities
-- MC = ∑ Av,m x Cv,m v,m
+  - MC = ∑ Av,m x Cv,m v,m
 
 - **Production Cost (PC)**: Cost of producing finished goods at facilities
-- PC = ∑ Ag,f x Cg,f f,g
+  - PC = ∑ Ag,f x Cg,f f,g
 
 - **Transportation Cost (TC)**: Includes multiple transportation phases
-- TC = ∑ Am,v,f x Cm,v,f v,f,m + ∑ Ag,f,w x Cg,w,f f,w,g + ∑ Ag,w,c x Cg,w,c w,c,g
+  - TC = ∑ Am,v,f x Cm,v,f v,f,m + ∑ Ag,f,w x Cg,w,f f,w,g + ∑ Ag,w,c x Cg,w,c w,c,g
 
 - **Inventory Cost (IC)**: Specifically modeled for perishable goods
 
 - **Objective Function**: Minimization of the total cost
-- Min (∑ Av,m x Cv,m v,m + ∑ Ag,f x Cg,f f,g + ∑ Am,v,f x Cm,v,f v,f,m + ∑ Ag,f,w x Cg,w,f f,w,g + ∑ Ag,w,c x Cg,w,c w,c,g + IC)
+  - Min (∑ Av,m x Cv,m v,m + ∑ Ag,f x Cg,f f,g + ∑ Am,v,f x Cm,v,f v,f,m + ∑ Ag,f,w x Cg,w,f f,w,g + ∑ Ag,w,c x Cg,w,c w,c,g + IC)
 
 ## Methodology
 The problem is solved using the **Differential Evolution (DE)** algorithm, a population-based metaheuristic optimization technique with several key advantages:
