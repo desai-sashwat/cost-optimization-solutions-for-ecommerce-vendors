@@ -108,6 +108,7 @@ cr = 0.7  # Crossover rate
 
 # Perform differential evolution
 solution = differential_evolution(pop_size, bounds, iter, F, cr)
+```
 
 ## Future Scope
 Future enhancements for this project include:
