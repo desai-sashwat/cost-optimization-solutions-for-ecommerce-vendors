@@ -1,7 +1,7 @@
 # Cost Optimization Solutions for E-Commerce Vendors
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Publication: IJISRT](https://img.shields.io/badge/Publication-IJISRT-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Publication: IJISRT](https://img.shields.io/badge/Publication-IJISRT-blue)](https://www.ijisrt.com/cost-optimization-solutions-for-ecommerce-vendors)
 
 ## Table of Contents
 - [Overview](#overview)
