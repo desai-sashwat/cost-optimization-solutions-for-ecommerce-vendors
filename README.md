@@ -66,16 +66,22 @@ The implementation follows a standard DE workflow:
 
 ## Repository Structure
 - **code/** - Implementation of the Differential Evolution algorithm
-- `main.py` - Core implementation of the cost optimization model
-- `placeholder.md` - Placeholder file
+  - `main.py` - Core implementation of the cost optimization model
+  - `placeholder.md` - Placeholder file
 - **data/** - Data files used for optimization
-- `data2.xlsx` - Real-world dataset containing cost information
-- `placeholder.md` - Placeholder file
+  - `data2.xlsx` - Real-world dataset containing cost information
+  - `placeholder.md` - Placeholder file
 - **report-presentation-poster/** - Documentation of the project
-- **report/** - Detailed research paper (IJISRT23SEP1103.pdf)
-- **presentation/** - Slide deck explaining the project
-- **poster/** - Visual summary of the project
-- `placeholder.md` - Placeholder file
+  - **report/** 
+    - `IJISRT23SEP1103.pdf` - Detailed research paper
+    - `placeholder.md` - Placeholder file
+  - **presentation/**
+    - `presentation.pdf` - Slide deck explaining the project
+    - `placeholder.md` - Placeholder file
+  - **poster/**
+    - `Poster.pdf` - Visual summary of the project
+    - `placeholder.md` - Placeholder file
+  - `placeholder.md` - Placeholder file
 - **LICENSE** - MIT License
 - **README.md** - Project documentation
 
